@@ -1,26 +1,3 @@
-<!-- Loading mathjax macro -->
-<!-- Load mathjax -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML"></script>
-    <!-- MathJax configuration -->
-    <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-            processEscapes: true,
-            processEnvironments: true
-        },
-        // Center justify equations in code and markdown cells. Elsewhere
-        // we use CSS to left justify single line equations in code cells.
-        displayAlign: 'center',
-        "HTML-CSS": {
-            styles: {'.MathJax_Display': {"margin": 0}},
-            linebreaks: { automatic: true }
-        }
-    });
-</script>
-<!-- End of mathjax configuration -->
-
 # Predicting Best Picture Winners 
 
 **Davis Williams, Ian Haessler, Chaitu Konjeti, Saket Shirsath, Sania Setayesh**
@@ -53,7 +30,7 @@ The final features we wanted to include in our dataset are as follows:
 
 -Up to 3 Movie Genres: Certain genres, such as war, historical, and drama have won Best Picture more often than other categories, such as adventure or fantasy [6].
 
-To get these features from our raw data, we had to do some manipulation. Runtime and release month were fairly simple. Runtime could be extracted straight from the raw data. To get release month, we just had to parse through the release date and extract the month. The earnings/budget ratio was a simple calulation of $\frac{earnings}{budget} * 100$. Some budget/earnings data was missing, so in those cases, the movies were assigned a default value of 100\. We assigned each genre a unique id and set the features genre_1, genre_2, and genre_3 to the id scores for each movie's top three genres. If a movie fit under less than 3 genres, we assigned it 0 for the extra features. This accounts for most of our features, but we had to come up with a more novel way of making use of the IMDB ratings.
+To get these features from our raw data, we had to do some manipulation. Runtime and release month were fairly simple. Runtime could be extracted straight from the raw data. To get release month, we just had to parse through the release date and extract the month. The earnings/budget ratio was a simple calulation of (earnings/budget) * 100. Some budget/earnings data was missing, so in those cases, the movies were assigned a default value of 100. We assigned each genre a unique id and set the features genre_1, genre_2, and genre_3 to the id scores for each movie's top three genres. If a movie fit under less than 3 genres, we assigned it 0 for the extra features. This accounts for most of our features, but we had to come up with a more novel way of making use of the IMDB ratings.
 
 #### Deriving A New Rating Score
 
