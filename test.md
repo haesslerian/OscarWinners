@@ -1,6 +1,6 @@
 <!-- Loading mathjax macro -->
 <!-- Load mathjax -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML"></script>
     <!-- MathJax configuration -->
     <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -19,7 +19,8 @@
         }
     });
 </script>
-    <!-- End of mathjax configuration -->
+<!-- End of mathjax configuration -->
+
 # Predicting Best Picture Winners 
 
 **Davis Williams, Ian Haessler, Chaitu Konjeti, Saket Shirsath, Sania Setayesh**
