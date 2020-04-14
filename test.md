@@ -1,13 +1,3 @@
-<div tabindex="-1" id="notebook" class="border-box-sizing">
-
-<div class="container" id="notebook-container">
-
-<div class="cell border-box-sizing text_cell rendered">
-
-<div class="inner_cell">
-
-<div class="text_cell_render border-box-sizing rendered_html">
-
 # Predicting Best Picture Winners[¶](#Predicting-Best-Picture-Winners)
 
 **Davis Williams, Ian Haessler, Chaitu Konjeti, Saket Shirsath, Sania Setayesh**
@@ -277,13 +267,3 @@ Chaitu Konjeti: Neural network, methods for the project proposal, wrote introduc
 Saket Shirsath: K Nearest Neighbors, Processed new rating feature, Wrote Rating Score paragraph, Presenter
 
 Sania Setayesh: Decision Trees, Presenter
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
