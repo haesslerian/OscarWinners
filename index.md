@@ -264,7 +264,7 @@ To conclude, because of its subjectivity, there is likely no way to make a class
 
 Davis Williams: Processed raw data, Naive Bayes, Dataset paragraphs, Comparison paragraphs, Created graphics, Write-Up Editor
 
-Ian Haessler: Found initial data set, Logistic Regression, Created Webpage, Created graphics
+Ian Haessler: Created initial data set, Logistic Regression, Created Webpage, Created graphics
 
 Chaitu Konjeti: Neural network, methods for the project proposal, wrote introduction, Presenter
 
