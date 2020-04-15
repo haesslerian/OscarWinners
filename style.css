@@ -1,3 +1,7 @@
+!important
 img {
+  height: auto; 
+  width: auto; 
+  max-width: 590px; 
   max-height: 590px;
 }
